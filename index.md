@@ -8,10 +8,10 @@ author: null
 show_tile: false
 ---
 
-Eines der wichtigsten Architekturprinzipien ist „Teile und Herrsche!“. Es geht um die Frage:
+Eines der wichtigsten Architekturprinzipien lautet „Teile und Herrsche!“. Es geht um die Frage:
 <blockquote>Wie können wir eine Anwendung in Form von (möglichst) unabhängigen Teil-Anwendungen realisieren?</blockquote>
-Im Lauf der Jahre wurde dieses Thema unter Bezeichnungen wie „Komponentenbasierte Softwareentwicklung“, „Service-orientierte Architektur“ und „Microservices“
+Im Lauf der Jahre wurde dieses Thema unter Bezeichnungen wie „<strong>Komponentenbasierte Softwareentwicklung</strong>“, „<strong>Service-orientierte Architektur</strong>“ und „<strong>Microservices</strong>“
 umgesetzt. Letztendlich sind dies verschiedene Ausprägungen unseres oben genannten Prinzips. Der Begriff
-„Macroservices“ stellt einen bewussten Kontrast zu „Microservices“ dar und will darauf hinweisen, dass in einer guten
+„<strong>Macroservices</strong>“ stellt einen bewussten Kontrast zu „<strong>Microservices</strong>“ dar und will darauf hinweisen, dass in einer guten
 Unterteilung die Services nicht so „micro“ sind, wie der Begriff suggeriert. Man könnte auch sagen, wir sind auf der
-Suche nach „Right-sized services“.
+Suche nach „<strong>Right-sized services</strong>“.
