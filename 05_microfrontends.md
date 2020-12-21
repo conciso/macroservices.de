@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Microfrontends
-description: Ipsum dolor sit amet
+description: Dem Frontend-Monolithen den Kampf ansagen!
 thumbnail: assets/images/pic01.jpg
 nav-menu: true
 ---
