@@ -2,7 +2,7 @@
 layout: post
 title: Microservices - Wann und Wie?
 description: Feugiat amet tempus
-image: assets/images/pic06.
+thumbnail: assets/images/pic06.
 nav-menu: true
 ---
 

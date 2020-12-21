@@ -2,7 +2,7 @@
 layout: post
 title: Microfrontends
 description: Ipsum dolor sit amet
-image: assets/images/pic01.jpg
+thumbnail: assets/images/pic01.jpg
 nav-menu: true
 ---
 

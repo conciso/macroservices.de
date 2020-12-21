@@ -2,7 +2,7 @@
 layout: post
 title: Why Macro?
 description: Lorem etiam nullam
-image: assets/images/pic03.jpg
+thumbnail: assets/images/pic03.jpg
 nav-menu: true
 ---
 

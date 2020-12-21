@@ -2,7 +2,7 @@
 layout: post
 title: Stand der Dinge
 description: Ipsum dolor sit amet
-image: assets/images/pic05.jpg
+thumbnail: assets/images/pic05.jpg
 nav-menu: true
 ---
 
