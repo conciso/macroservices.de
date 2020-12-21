@@ -6,7 +6,7 @@ image: assets/images/pic04.jpg
 nav-menu: true
 ---
 
-# Wann ist klein zu klein?
+## Wann ist klein zu klein?
 
 Bei einem unserer Kunden haben wir ein System nach den Paradigmen einer Microservice-Architektur entwickelt.
 Dabei sind mit der Zeit recht viele unabhängige Services entstanden, die synchron über HTTP/JSON oder asynchron über
@@ -27,7 +27,7 @@ Rest-Schnittstellen für eine Datenbank waren, in den einzigen konsumierenden Se
 laden wir (statische) Daten, die von mehreren Services genutzt werden, nur einmal beim Start in den Speicher und
 erreichen so einen wesentlich flüssigeren Betrieb und bessere Skalierbarkeit.
 
-# Wann ist groß zu groß?
+## Wann ist groß zu groß?
 
 Unter anderem aufgrund dieser Erfahrung haben wir kurz darauf im selben Projekt, aber in einem anderen Team einen
 komplett anderen Schnitt unserer Domäne gewählt. Diesmal haben wir nur zwei Services definiert (natürlich immer noch
@@ -46,7 +46,7 @@ bessere Skalierbarkeit der einzelnen Komponenten und eine Vereinfachung des Einb
 Anpassung einzelner Komponenten. Zudem wurde es einfacher, mit mehreren Entwicklern parallel zu arbeiten, da man sich
 weniger Gedanken um mögliche Seiteneffekte oder Mergekonflikte machen musste.
 
-# Fazit
+## Fazit
 
 Es braucht viel Fingerspitzengefühl, die richtige Balance aus Software-Performance und Team-Performance zu finden.
 Der ideale Zuschnitt der Services wird manchmal auch erst im Verlauf eines Projekts deutlich. Darum ist es sehr wichtig,
