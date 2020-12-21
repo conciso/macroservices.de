@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Microservices - Wann und Wie?
-description: Feugiat amet tempus
+description: Welche Voraussetzungen muss ich für Microservices erfüllen?
 thumbnail: assets/images/pic06.
 nav-menu: true
 ---
