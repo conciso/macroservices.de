@@ -3,6 +3,7 @@ layout: post
 title: Praxisbeispiel: Size matters
 description: Nisl sed aliquam
 image: assets/images/pic04.jpg
+nav-menu: true
 ---
 
 # Wann ist klein zu klein?

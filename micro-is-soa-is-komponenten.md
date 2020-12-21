@@ -3,6 +3,7 @@ layout: post
 title: Microservices is SOA is Komponentenbasierung is Teile und Herrsche
 description: Feugiat amet tempus
 image: assets/images/pic02.jpg
+nav-menu: true
 ---
 
 Eines der wichtigsten Architekturprinzipien ist „Teile und Herrsche!“. Es geht um die Frage: Wie können wir eine

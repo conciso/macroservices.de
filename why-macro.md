@@ -3,6 +3,7 @@ layout: post
 title: Why Macro?
 description: Lorem etiam nullam
 image: assets/images/pic03.jpg
+nav-menu: true
 ---
 
 Wir kennen alle viele gute Gründe für Microservices und warum Monolithen oft nicht der richtige Weg sind.

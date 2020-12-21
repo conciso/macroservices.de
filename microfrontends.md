@@ -3,6 +3,7 @@ layout: post
 title: Microfrontends
 description: Ipsum dolor sit amet
 image: assets/images/pic01.jpg
+nav-menu: true
 ---
 
 In der Softwareentwicklung sind Microservices schon länger gang und gäbe. Auch der Ansatz, unterschiedliche Themen von

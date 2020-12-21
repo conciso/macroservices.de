@@ -2,7 +2,8 @@
 layout: post
 title: Microservices - Wann und Wie?
 description: Feugiat amet tempus
-image: assets/images/pic06.jpg
+image: assets/images/pic06.
+nav-menu: true
 ---
 
 Eine Microservices-Architektur bietet sich vor allem dann an, wenn Bedarf für schnelle, häufige und unabhängige

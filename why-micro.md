@@ -3,6 +3,7 @@ layout: post
 title: Why Micro?
 description: Ipsum dolor sit amet
 image: assets/images/pic05.jpg
+nav-menu: true
 ---
 
 Klassische Enterpriseanwendungen wurden lange Zeit mit mehrschichtigen monolithischen Architekturen implementiert.

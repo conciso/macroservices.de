@@ -3,6 +3,7 @@ layout: post
 title: Stand der Dinge
 description: Ipsum dolor sit amet
 image: assets/images/pic05.jpg
+nav-menu: true
 ---
 
 Microservices sind der große Architekturtrend der letzten Jahre. In Gartners Hypecycle 2020 befinden sich Microservices im Pfad zur Erleuchtung. Auch Microapps sind beliebter denn je. In der Architektur scheint klar: 'Kleiner ist besser'. Obwohl – seit nicht nur in [Social Media](http://highscalability.com/blog/2020/4/8/one-team-at-uber-is-moving-from-microservices-to-macroservic.html) der Begriff Macroservice die Runde machte, scheint das Denken in größeren Einheiten auch wieder auf dem Vormarsch.
