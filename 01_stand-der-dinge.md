@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Stand der Dinge
-description: Ipsum dolor sit amet
+description: Microservices, Nanoservices, Serverless, Big Ball of Mud – oder doch Macroservices?
 thumbnail: assets/images/pic05.jpg
 nav-menu: true
 ---
