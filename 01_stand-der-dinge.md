@@ -10,7 +10,7 @@ Microservices sind der große Architekturtrend der letzten Jahre. In Gartners Hy
 
 Microservices, Nanoservices, Serverless, Big Ball of Mud – oder doch Macroservices? Na was denn jetzt, klein oder groß? Immerhin eines lässt sich mit Sicherheit sagen: die Größe scheint entscheidend. Heuristiken wie [Amazons 2-Pizza Teams](https://searchapparchitecture.techtarget.com/blog/Microservices-Matters/The-culture-of-microservices-Conways-law-and-two-pizza-boxes) zielen ja auch genau in diese Richtung.
 
-##Size does matter. But wait … does it?
+## Size does matter. But wait … does it?
 
 Zoomen wir mal ein wenig heraus aus dem Bild. Egal, wie groß der Service ist – er ist Teil eines Systems von Services. Viele Services agieren miteinander, erfüllen Aufgaben in einem Gesamten – und brauchen dafür Verbindungen zueinander. Sie bilden ein System. Darum ist Architekturdesign schon immer auch Systemdesign. Und in Systemen geht es inhärent immer um Abgrenzung: was ist drinnen, was ist draußen? Die Größe eines Services ergibt sich durch diese Abgrenzung. Entscheidend ist die Frage, was sich sich innerhalb der Grenzen bewegt, was dazwischen und was außerhalb.
 
