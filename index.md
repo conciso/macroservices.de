@@ -8,4 +8,8 @@ author: null
 show_tile: false
 ---
 
-Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.
+In der Software-Architektur haben sich in den letzten Jahren zwei scheinbar
+gegensätzliche Ansätze ausgebildet: Microservices versus Macroservices. Bei
+genauerer Betrachtung der Vor- und Nachteile stellt sich jedoch die Frage, ob
+das „entweder oder” nicht viel eher ein „sowohl als auch” sein sollte. Im
+Folgenden gehen wir dieser Frage auf den Grund.
