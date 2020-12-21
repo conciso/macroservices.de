@@ -1,17 +1,17 @@
 # site settings
 title: macroservices.de
 subtitle: by Conciso.
-email: youremailaddress@gmail.com
+email: info@conciso.de
 description: Warum es nicht um „entweder oder”,<br />sondern um „sowohl als auch” geht.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author:
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
-country: United States of America
-phone: (716) 555-5555
+street_address: Pariser Bogen 7
+city: Dortmund
+state:
+zip_code: 44269
+country:
+phone: +49 231 5648 450
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
