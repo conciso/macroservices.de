@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Why Micro?
-description: Welchen Vorteile haben Systeme mit einem möglichst kleinen Schnitt
+description: Welche Vorteile haben Services mit einem möglichst kleinen Schnitt?
 thumbnail: assets/images/pic05.jpg
 nav-menu: true
 ---

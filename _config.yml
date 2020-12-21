@@ -1,7 +1,7 @@
 # site settings
 title: macroservices.de
 subtitle: by Conciso.
-email: info@conciso.de
+email: macroservices@conciso.de
 description: Warum es nicht um „entweder oder”,<br />sondern um „sowohl als auch” geht.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
