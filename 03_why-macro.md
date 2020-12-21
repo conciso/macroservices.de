@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Why Macro?
-description: Lorem etiam nullam
+description: Wann sind Macroservices sinnvoll?
 thumbnail: assets/images/pic03.jpg
 nav-menu: true
 ---
@@ -9,8 +9,9 @@ nav-menu: true
 Wir kennen alle viele gute Gründe für Microservices und warum Monolithen oft nicht der richtige Weg sind.
 Es wurde lange auf wirklich jeder einzelnen Konferenz als die Lösung für fast alle Probleme verkauft.
 
-Mircoservices haben jedoch nicht nur viele Vorteile, die mein Kollege in [Why Micro?](./04_why-micro.html)
-sehr gut beschrieben hat.
+Mircoservices haben jedoch nicht nur viele Vorteile, die in [Why Micro?](./04_why-micro.html) beschrieben sind.
+
+## Der richtige Schnitt
 
 Der Schnitt ist hier sehr entscheidend. Es ist allerdings nicht immer sinnvoll möglich, eine saubere fachliche und
 funktionale Trennung so klein zu gestalten, dass wir von Microservices sprechen können. Ein künstliches Kleinschneiden
