@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: page
 title: Praxisbeispiel: Size matters
-description: Nisl sed aliquam
+description: Bericht aus dem Projektalltag
 image: assets/images/pic04.jpg
 nav-menu: true
 ---
