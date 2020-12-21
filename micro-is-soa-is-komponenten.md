@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Microservices is SOA is Komponentenbasierung is Teile und Herrsche
-description: Feugiat amet tempus
+description: Alter Wein in neuen Schläuchen?
 image: assets/images/pic02.jpg
 nav-menu: true
 ---
