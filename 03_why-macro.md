@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Why Macro?
-description: Wann sind Macroservices sinnvoll?
+description: Unter welchen Umständen sind Macroservices sinnvoll?
 thumbnail: assets/images/pic03.jpg
 nav-menu: true
 ---
