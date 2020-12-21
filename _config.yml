@@ -6,9 +6,9 @@ description: Warum es nicht um „entweder oder”,<br />sondern um „sowohl al
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author:
+company: Conciso GmbH
 street_address: Pariser Bogen 7
 city: Dortmund
-state:
 zip_code: 44269
 country:
 phone: +49 231 5648 450
@@ -18,16 +18,12 @@ tiles-source: pages # accepts "posts" or "pages"
 tiles-count: 6
 
 # social settings
-500px_url:
 facebook_url:
-github_url:
-gitlab_url: https://gitlab.com/andrewbanchich
-googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
-instagram_url: https://instagram.com
-linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
-pinterest_url:
-slack_url:
-twitter_url: https://twitter.com/andrewbanchich
+github_url: https://github.com/conciso
+gitlab_url:
+instagram_url:
+linkedin_url: https://www.linkedin.com/company/conciso/
+twitter_url: https://twitter.com/ConcisoIT
 
 # build settings
 markdown: kramdown
