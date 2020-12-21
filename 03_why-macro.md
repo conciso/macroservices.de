@@ -9,7 +9,7 @@ nav-menu: true
 Wir kennen alle viele gute Gründe für Microservices und warum Monolithen oft nicht der richtige Weg sind.
 Es wurde lange auf wirklich jeder einzelnen Konferenz als die Lösung für fast alle Probleme verkauft.
 
-Mircoservices haben jedoch nicht nur viele Vorteile, die mein Kollege in [Why Micro?](./why-micro.html)
+Mircoservices haben jedoch nicht nur viele Vorteile, die mein Kollege in [Why Micro?](./04_why-micro.html)
 sehr gut beschrieben hat.
 
 Der Schnitt ist hier sehr entscheidend. Es ist allerdings nicht immer sinnvoll möglich, eine saubere fachliche und
