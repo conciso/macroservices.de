@@ -8,8 +8,10 @@ author: null
 show_tile: false
 ---
 
-In der Software-Architektur haben sich in den letzten Jahren zwei scheinbar
-gegensätzliche Ansätze ausgebildet: Microservices versus Macroservices. Bei
-genauerer Betrachtung der Vor- und Nachteile stellt sich jedoch die Frage, ob
-das „entweder oder” nicht viel eher ein „sowohl als auch” sein sollte. Im
-Folgenden gehen wir dieser Frage auf den Grund.
+Eines der wichtigsten Architekturprinzipien ist „Teile und Herrsche!“. Es geht um die Frage:
+<blockquote>Wie können wir eine Anwendung in Form von (möglichst) unabhängigen Teil-Anwendungen realisieren?</blockquote>
+Im Lauf der Jahre wurde dieses Thema unter Bezeichnungen wie „Komponentenbasierte Softwareentwicklung“, „Service-orientierte Architektur“ und „Microservices“
+umgesetzt. Letztendlich sind dies verschiedene Ausprägungen unseres oben genannten Prinzips. Der Begriff
+„Macroservices“ stellt einen bewussten Kontrast zu „Microservices“ dar und will darauf hinweisen, dass in einer guten
+Unterteilung die Services nicht so „micro“ sind, wie der Begriff suggeriert. Man könnte auch sagen, wir sind auf der
+Suche nach „Right-sized services“.
