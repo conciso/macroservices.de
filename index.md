@@ -8,7 +8,7 @@ author: null
 show_tile: false
 ---
 
-Eines der wichtigsten Architekturprinzipien lautet „Teile und Herrsche!“. Es geht um die Frage:
+Eines der wichtigsten Architekturprinzipien lautet „<strong>Teile und Herrsche!</strong>“. Es geht um die Frage:
 <blockquote>Wie können wir eine Anwendung in Form von (möglichst) unabhängigen Teil-Anwendungen realisieren?</blockquote>
 Im Lauf der Jahre wurde dieses Thema unter Bezeichnungen wie „<strong>Komponentenbasierte Softwareentwicklung</strong>“, „<strong>Service-orientierte Architektur</strong>“ und „<strong>Microservices</strong>“
 umgesetzt. Letztendlich sind dies verschiedene Ausprägungen unseres oben genannten Prinzips. Der Begriff
