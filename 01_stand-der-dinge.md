@@ -7,9 +7,9 @@ nav-menu: true
 ---
 
 Microservices sind der große Architekturtrend der letzten Jahre. In Gartners Hypecycle 2020 befinden sich Microservices
-im Pfad zur Erleuchtung. Auch Microapps sind beliebter denn je. In der Architektur scheint klar: 'Kleiner ist besser'.
+im Pfad zur Erleuchtung. Auch Microapps sind beliebter denn je. In der Architektur scheint klar: '<strong>Kleiner ist besser</strong>'.
 Obwohl – seit nicht nur in [Social Media](http://highscalability.com/blog/2020/4/8/one-team-at-uber-is-moving-from-microservices-to-macroservic.html)
-der Begriff Macroservice die Runde machte, scheint das Denken in größeren Einheiten auch wieder auf dem Vormarsch.
+der Begriff <strong>Macroservice</strong> die Runde machte, scheint das Denken in größeren Einheiten auch wieder auf dem Vormarsch.
 
 Microservices, Nanoservices, Serverless, Big Ball of Mud – oder doch Macroservices? Na was denn jetzt, klein oder groß?
 Immerhin eines lässt sich mit Sicherheit sagen: die Größe scheint entscheidend. Heuristiken wie
@@ -27,6 +27,8 @@ Entscheidend ist die Frage, was sich innerhalb der Grenzen bewegt, was dazwische
 Und die Antwort auf diese Frage ist immer ein Kompromiss. Je größer die Services, desto weniger Verbindungen braucht es
 zwischen ihnen. Und je kleiner die Services, desto mehr Verbindungen braucht es.
 
+## Die Sache mit der Komplexität
+
 Mehrere kleinere Services ergeben mehr Beziehungen. Wenige große Services ergeben weniger Beziehungen. Und diese
 Verbindungen produzieren potentielle Problemstellen. Denn sie funktionieren nicht immer zuverlässig. Bedingt durch
 unabhängige Laufzeits-, Deployment- und Lebenszyklen der Einzelteile fehlen Antworten oder werden falsche Antworten
@@ -34,6 +36,8 @@ weitergegeben. Je mehr Beziehungen zwischen Services gepflegt werden müssen, de
 
 Der Schlüssel liegt darum in der Herstellung einer ausgewogenen Balance.
 Zwischen der Komplexität der Einzelteile und der des Gesamtsystems.
+
+## Softwarearchitektur bedeutet auch Organisationsentwicklung!
 
 Gleichzeitig sollten auch die sozi-technischen Aspekte des Systems betrachtet werden. Um beim Amazon-Beispiel zu bleiben:
 wie groß sind denn eigentlich die zwei Pizzen? Minipizzen, Maxipizzen oder Familienpizza? Wie groß ist das Team, das einen Service betreut?
@@ -51,6 +55,8 @@ Komplexität innerhalb eines Services und der im Gesamtsystem herstellen. Und di
 Business Capabilities, den gewünschten User Journeys und den bestehenden Geschäfts- und Organisationsprozessen.
 Nicht zu vergessen, manchmal auch notwendigerweise von technischen Treibern. Berücksichtigt man diese Aspekte,
 bekommt die Größe an sich eine zweitrangige Rolle. Und man denkt mehr das System an sich.
+
+## Fazit
 
 Wir propagieren hier also kein Blueprint-Konzept für Macroservices. Wir möchten ihnen Ideen, Überlegungen und
 Heuristiken zu unterschiedlichsten Gesichtspunkten guten Service-Designs an die Hand geben. In Form von Artikeln,
