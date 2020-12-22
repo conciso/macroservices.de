@@ -1,7 +1,7 @@
 # Macroservices.de
 
 Sources of [macroservices.de](https://macroservices.de) based on the Jekyll
-theme ["Forty"](https://github.com/andrewbanchich/forty-jekyll-theme) theme by [HTML5 UP](https://html5up.net/).
+["Forty"](https://github.com/andrewbanchich/forty-jekyll-theme) theme by [HTML5 UP](https://html5up.net/).
 
 # Credits
 
