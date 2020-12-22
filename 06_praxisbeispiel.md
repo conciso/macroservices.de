@@ -2,7 +2,7 @@
 layout: post
 title: Praxisbeispiel - Size matters
 description: Bericht aus dem Projektalltag
-thumbnail: assets/images/pic04.jpg
+thumbnail: assets/images/praxis.jpg
 nav-menu: true
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: Der Stand der Dinge
 description: Microservices, Nanoservices, Serverless, Big Ball of Mud – oder doch Macroservices?
-thumbnail: assets/images/pic05.jpg
+thumbnail: assets/images/stand-der-dinge.jpg
 nav-menu: true
 ---
 
