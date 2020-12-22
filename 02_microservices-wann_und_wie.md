@@ -2,7 +2,7 @@
 layout: post
 title: Microservices - Wann und Wie?
 description: Welche Voraussetzungen muss ich für Microservices erfüllen?
-thumbnail: assets/images/pic06.jpg
+thumbnail: assets/images/microservices-wann_und_wie.png
 nav-menu: true
 ---
 
