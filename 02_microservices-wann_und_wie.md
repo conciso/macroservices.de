@@ -13,8 +13,7 @@ Ein testgetriebenes Vorgehen sowie Trunk-based Development sind die logischen Ko
 können auch ein Polyglot-Szenario, also Komponenten in unterschiedlichen Programmiersprachen und Frameworks, und
 Omnichannel (Web/Desktop/Mobile) sowie hohe Skalierbarkeit sein.
 
-Auf jeden Fall sollte sichergestellt sein, dass eine klare logische, fachliche oder funktionale Trennung der
-Komponenten vorliegt.
+### Auf jeden Fall sollte sichergestellt sein, dass eine klare logische, fachliche oder funktionale Trennung der Komponenten vorliegt.
 
 Am häufigsten aber werden die Voraussetzungen an die Organisation unterschätzt, in der die Microservices entwickelt
 und betrieben werden. Der Schnitt der Teams und die Gestaltung der Organisation sind mindestens ebenso wichtig wie
