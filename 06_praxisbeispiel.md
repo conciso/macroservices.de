@@ -6,7 +6,7 @@ thumbnail: assets/images/praxis.jpg
 nav-menu: true
 ---
 
-#### Microservices scheinen die Lösung schlechthin zu sein … gibt es denn auch Situationen, in denen "klein" zu klein wird?
+##### Microservices scheinen die Lösung schlechthin zu sein … gibt es denn auch Situationen, in denen "klein" zu klein wird?
 
 <blockquote>
 <strong>Lukas</strong>: Ja, ganz so einfach ist es nicht. Mir fällt ein Beispiel bei einem unserer Kunden ein.
@@ -46,7 +46,7 @@ waren, in einen einzigen konsumierenden Service integriert.
 Damit haben wir einen wesentlich flüssigeren Betrieb und eine bessere Skalierbarkeit erreicht.
 </blockquote>
 
-#### Gibt es denn auch das Gegenteil? Kann „groß" auch zu groß geraten?
+##### Gibt es denn auch das Gegenteil? Kann „groß" auch zu groß geraten?
 
 <blockquote>
 <strong>Lukas</strong>: Ja, auch das ist möglich, sogar im gleichen Projekt. Aufgrund der Erfahrung mit den zu kleinen Microservices
