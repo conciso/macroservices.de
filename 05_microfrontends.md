@@ -2,7 +2,7 @@
 layout: post
 title: Microfrontends
 description: Dem Frontend-Monolithen den Kampf ansagen!
-thumbnail: assets/images/pic01.jpg
+thumbnail: assets/images/microfrontends.jpg
 nav-menu: true
 ---
 
@@ -22,6 +22,8 @@ Turnaround-Zeiten für verschiedene Fachlichkeiten. Die Frontend-Entwickler der 
 die UI der Fachlichkeit des eigenen Teams zuständig. Es gibt nicht mehr DAS Frontend-Team für die Gesamtintegration
 aller Fachlichkeiten in die UI.
 
+### Single-Page Applications
+
 Die einfachste Form der Integration ist hier die Verlinkung verschiedener Systeme mit gleichem Erscheinungsbild.
 Etwas komplexer ist z.B. eine Single-Page-Application aus verschiedenen Teilanwendungen. Die einzelnen Teile können
 dann innerhalb des Microfrontend-Ansatzes in unterschiedlichen Frameworks geschrieben werden. Jedes Team kann selbst
@@ -32,9 +34,9 @@ Eine genaue Abgrenzung der beiden Extreme (und allem, was dazwischen liegt) ist 
 keine feststehende Technologie, sondern ein Architekturmuster. Man kann im Browser rendern, klassisch im Backend oder
 eben eine Mischung aus beidem.
 
-Eine Herausforderung bleibt jedoch: Die Einzelteile müssen integriert werden. Es muss klar sein, wie Daten von einem
-Team zum anderen geleitet werden. Dazu gibt es aber beinahe unzählige Möglichkeiten: von Datenlinks über ein Bus-System,
-das im Browser lebt, bis hin zu gemeinsamen Store-Implementierungen.
+### Eine Herausforderung bleibt jedoch: Die Einzelteile müssen integriert werden.
+Es muss klar sein, wie Daten von einem Team zum anderen geleitet werden. Dazu gibt es aber beinahe unzählige Möglichkeiten:
+von Datenlinks über ein Bus-System, das im Browser lebt, bis hin zu gemeinsamen Store-Implementierungen.
 
 Einzelne Elemente der verschiedenen Teams können hier zusätzlich als „Mini-Anwendungen“ bereitgestellt werden. Um zum
 Beispiel auf der Bezahl-Seite des eigenen Online-Shops noch eben ein paar mehr Produkte vorzuschlagen, kann das
