@@ -46,7 +46,7 @@ waren, in einen einzigen konsumierenden Service integriert.
 Damit haben wir einen wesentlich flüssigeren Betrieb und eine bessere Skalierbarkeit erreicht.
 </blockquote>
 
-##### Gibt es denn auch das Gegenteil? Kann „groß" auch zu groß geraten?
+##### Und wie sieht es beim Gegenteil aus? Kann „groß" auch zu groß geraten?
 
 <blockquote>
 <strong>Lukas</strong>: Ja, auch das ist möglich, sogar im gleichen Projekt. Aufgrund der Erfahrung mit den zu kleinen Microservices
