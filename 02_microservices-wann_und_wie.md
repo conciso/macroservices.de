@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Microservices - Wann und Wie?
-description: Welche Voraussetzungen muss ich für Microservices erfüllen?
+description: Reicht ein neues Framwork oder steckt mehr dahinter?
 thumbnail: assets/images/microservices-wann_und_wie.jpg
 nav-menu: true
 ---
