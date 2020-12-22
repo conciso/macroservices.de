@@ -6,7 +6,7 @@ thumbnail: assets/images/praxis.jpg
 nav-menu: true
 ---
 
-##### Microservices scheinen die Lösung schlechthin zu sein … gibt es denn auch Situationen, in denen "klein" zu klein wird?
+#### Microservices scheinen die Lösung schlechthin zu sein … gibt es denn auch Situationen, in denen "klein" zu klein wird?
 
 <blockquote>
 <strong>Lukas</strong>: Ja, ganz so einfach ist es nicht. Mir fällt ein Beispiel bei einem unserer Kunden ein.
