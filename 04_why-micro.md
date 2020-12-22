@@ -16,9 +16,11 @@ Nebeneffekte und Auswirkungen zu überblicken. Gleichzeitig stehen sich bei den 
 Codebasis die Entwickler bzw. Teams gegenseitig auf den Füßen. Und Monolithen können immer nur als gesamtes System
 skaliert werden, nicht gezielt einzelne Komponenten, was mit hohen Kosten verbunden ist.
 
+### Haben Monolithen ausgedient?
+
 Um diese Probleme zu beheben, kann man das Gesamtsystem in viele kleine Microservices aufbrechen, die sich autark
 entwickeln, testen und liefern lassen. Microservices bieten zudem eine hohe Flexibilität in der Implementierung
-(„Polyglot“) sowie gegenüber unsicheren Anforderungen, die häufigen Änderungs- und Lieferbedarf mit sich bringen.
+(„<strong>Polyglot</strong>“) sowie gegenüber unsicheren Anforderungen, die häufigen Änderungs- und Lieferbedarf mit sich bringen.
 
 Wenn schnelle und häufige Releasezyklen von hoher strategischer Bedeutung sind und die Organisation, in der das
 Softwaresystem entsteht, mit entsprechend geschulten und cross-funktionalen Teams arbeitet, ist diese Form der
