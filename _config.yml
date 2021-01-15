@@ -18,10 +18,10 @@ tiles-source: pages # accepts "posts" or "pages"
 tiles-count: 6
 
 # social settings
-facebook_url: https://www.facebook.com/concisogmbh
+facebook_url:
 github_url: https://github.com/conciso
 gitlab_url:
-instagram_url: https://www.instagram.com/conciso.gmbh/
+instagram_url:
 linkedin_url: https://www.linkedin.com/company/conciso/
 xing_url: https://www.xing.com/companies/conciso
 twitter_url: https://twitter.com/ConcisoIT
