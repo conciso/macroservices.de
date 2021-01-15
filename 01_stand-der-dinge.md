@@ -56,9 +56,3 @@ Komplexität innerhalb eines Services und der im Gesamtsystem herstellen. Und di
 Business Capabilities, den gewünschten User Journeys und den bestehenden Geschäfts- und Organisationsprozessen.
 Nicht zu vergessen, manchmal auch notwendigerweise von technischen Treibern. Berücksichtigt man diese Aspekte,
 bekommt die Größe an sich eine zweitrangige Rolle. Und man denkt mehr das System an sich.
-
-## Fazit
-
-Wir propagieren hier also kein Blueprint-Konzept für Macroservices. Wir möchten ihnen Ideen, Überlegungen und
-Heuristiken zu unterschiedlichsten Gesichtspunkten guten Service-Designs an die Hand geben. In Form von Artikeln,
-Diskussionen, Webinaren – fundiert, ausgewogen und regelmäßig aktualisiert.

@@ -15,3 +15,7 @@ umgesetzt. Letztendlich sind dies verschiedene Ausprägungen unseres oben genann
 „<strong>Macroservices</strong>“ stellt einen bewussten Kontrast zu „<strong>Microservices</strong>“ dar und will darauf hinweisen, dass in einer guten
 Unterteilung die Services nicht so „micro“ sind, wie der Begriff suggeriert. Man könnte auch sagen, wir sind auf der
 Suche nach „<strong>Right-sized services</strong>“.
+
+Wir propagieren hier also kein Blueprint-Konzept für Macroservices. Wir möchten <strong>Ideen, Überlegungen und
+Heuristiken</strong> zu unterschiedlichsten Gesichtspunkten <strong>guten Service-Designs</strong> an die Hand geben. In Form von Artikeln,
+Diskussionen, Webinaren – fundiert, ausgewogen und regelmäßig aktualisiert.
