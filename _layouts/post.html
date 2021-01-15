@@ -19,10 +19,12 @@
 <!-- One -->
 <section id="one">
 	<div class="inner">
+		{% if page.image %}<span class="image main post" style="background-image: url('{{ site.baseurl }}{{ page.image }}')" />{% endif %}
 		<header class="major">
 			<h1>{{ page.title }}</h1>
+			<p>{{ page.description }}</p>
 		</header>
-		{% if page.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ page.image }}" alt="" /></span>{% endif %}
+		{% if page.image %}</span>{% endif %}
 		{{ content }}
 	</div>
 </section>

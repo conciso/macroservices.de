@@ -24,24 +24,28 @@
 		family-fixed:		('Courier New', monospace),
 		weight:				300,
 		weight-bold:		600,
+		weight-extra-bold:  800,
 		letter-spacing:		0.025em,
 		letter-spacing-alt:	0.25em
 	);
 
 // Palette.
 	$palette: (
-		bg:					#242943,
-		bg-alt:				#2a2f4a,
+		bg:					#333E48,//#009696,//#005064,//#242943,
+		bg-alt:				#009696,//#00BEBE,//#2a2f4a,
 		fg:					#ffffff,
 		fg-bold:			#ffffff,
 		fg-light:			rgba(244,244,255,0.2),
-		border:				rgba(212,212,255,0.1),
-		border-bg:			rgba(212,212,255,0.035),
+		border:				transparentize(#00BEBE,0.9),//rgba(51,62,72,0.1),//rgba(212,212,255,0.1),
+		border-bg:			transparentize(#00BEBE, 0.9),//rgba(0,180,22,0.035),//rgba(212,212,255,0.035),
 		highlight:			#9bf1ff,
-		accent1:			#6fc3df,
-		accent2:			#8d82c4,
-		accent3:			#ec8d81,
-		accent4:			#e7b788,
-		accent5:			#8ea9e8,
-		accent6:			#87c5a4
+		accent1:			transparent,//#6fc3df,
+		accent2:			transparent,//#8d82c4,
+		accent3:			transparent,//#ec8d81,
+		accent4:			transparent,//#e7b788,
+		accent5:			transparent,//#8ea9e8,
+		accent6:			transparent,//#87c5a4,
+        conciso-arch:		#009696,
+		conciso-corporate: 	#00BEBE,
+		conciso-development: #00B4FF,
 	);

@@ -3,6 +3,7 @@ layout: post
 title: Microfrontends
 description: Dem Frontend-Monolithen den Kampf ansagen!
 thumbnail: assets/images/microfrontends.jpg
+image: assets/images/microfrontends.jpg
 nav-menu: true
 ---
 

@@ -50,6 +50,13 @@ img {
 			}
 		}
 
+		&.post {
+			@include padding(4em, 4em);
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+		}
+
 		&.main {
 			display: block;
 			margin: (_size(element-margin) * 1.25) 0;
