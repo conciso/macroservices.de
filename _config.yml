@@ -1,11 +1,11 @@
 # site settings
 title: Macroservices
-subtitle: by Conciso.
+subtitle: Thought Leadership by CONCISO.
 email: macroservices@conciso.de
 description: Warum es nicht um „entweder oder”,<br />sondern um „sowohl als auch” geht.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
-author:
+author: Conciso GmbH
 company: Conciso GmbH
 street_address: Pariser Bogen 7
 city: Dortmund
