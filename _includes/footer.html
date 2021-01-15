@@ -8,7 +8,7 @@
 					<input type="text" name="name" id="name" />
 				</div>
 				<div class="field half">
-					<label for="email">Email</label>
+					<label for="email">E-Mail</label>
 					<input type="text" name="_replyto" id="email" />
 				</div>
 				<div class="field">
@@ -16,8 +16,8 @@
 					<textarea name="message" id="message" rows="6"></textarea>
 				</div>
 				<ul class="actions">
-					<li><input type="submit" value="Senden" class="special" /></li>
-					<li><input type="reset" value="Löschen" /></li>
+					<li><input type="submit" value="Senden" /></li>
+					<!--<li><input type="reset" value="Löschen" class="special"/></li>-->
 				</ul>
 			</form>
 		</section>
@@ -25,14 +25,14 @@
 			<section>
 				<div class="contact-method">
 					<span class="icon alt fa-envelope"></span>
-					<h3>Email</h3>
+					<h3>E-Mail</h3>
 					<a href="#">{{ site.email }}</a>
 				</div>
 			</section>
 			<section>
 				<div class="contact-method">
 					<span class="icon alt fa-phone"></span>
-					<h3>Phone</h3>
+					<h3>Telefon</h3>
 					<span>{{ site.phone }}</span>
 				</div>
 			</section>
@@ -90,7 +90,7 @@
 				{% endif %}
 			</ul>
 			<ul class="copyright">
-				<li>&copy; {{ site.title }} {{ site.subtitle }}</li>
+				<li>&copy; 2021 by {{site.company}} </li>
 				<li><a href="https://conciso.de/impressum/" target="_blank">Impressum</a></li>
 				<li>Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a></li>
 				<li>Jekyll integration: <a href="http://andrewbanchi.ch" target="_blank">Andrew Banchich</a></li>
