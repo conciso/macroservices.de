@@ -36,7 +36,7 @@
 		fg:					#ffffff,
 		fg-bold:			#ffffff,
 		fg-light:			rgba(244,244,255,0.2),
-		border:				transparentize(#00BEBE,0.9),//rgba(51,62,72,0.1),//rgba(212,212,255,0.1),
+		border:				lighten(#333E48, 10%),//rgba(51,62,72,0.1),//rgba(212,212,255,0.1),
 		border-bg:			transparentize(#00BEBE, 0.9),//rgba(0,180,22,0.035),//rgba(212,212,255,0.035),
 		highlight:			#9bf1ff,
 		accent1:			transparent,//#6fc3df,

@@ -4,6 +4,7 @@ title: Microservices - Wie &amp; Wann?
 description: Reicht ein neues Framework oder steckt mehr dahinter?
 thumbnail: assets/images/microservices-wann_und_wie.jpg
 image: assets/images/microservices-wann_und_wie.jpg
+colorscheme: dev
 nav-menu: true
 ---
 

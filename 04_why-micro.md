@@ -4,6 +4,7 @@ title: Why Micro?
 description: Welche Vorteile haben Services mit einem möglichst kleinen Schnitt?
 thumbnail: assets/images/why-micro.jpg
 image: assets/images/why-micro.jpg
+colorscheme: arch
 nav-menu: true
 ---
 

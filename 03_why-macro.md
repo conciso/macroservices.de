@@ -4,6 +4,7 @@ title: Why Macro?
 description: Unter welchen Umständen sind Macroservices sinnvoll?
 thumbnail: assets/images/macro.jpg
 image: assets/images/macro.jpg
+colorscheme: corp
 nav-menu: true
 ---
 

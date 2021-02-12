@@ -4,6 +4,7 @@ title: Size Matters - Ein Interview
 description: Wenn klein zu klein und groß zu groß ist<br />mit Lars Winterhalter und Lukas Pradel
 thumbnail: assets/images/praxis.jpg
 image: assets/images/praxis.jpg
+colorscheme: dev
 nav-menu: true
 ---
 

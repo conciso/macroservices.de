@@ -43,8 +43,7 @@
 			header {
 				position: relative;
 				z-index: 3;
-
-					background-color: transparentize(_palette(bg), 0.1);
+				background-color: transparentize(#000, 0.5);
 			}
 
 			h3 {
@@ -80,23 +79,14 @@
 				z-index: 2;
 			}
 
-			&:after {
-				//background-color: transparentize(_palette(bg), 0.75);
-				content: '';
-				display: block;
-				height: 100%;
-				left: 0;
-				position: absolute;
-				top: 0;
-				width: 100%;
-				z-index: 1;
-			}
 
 			&:hover {
 				&:before {
 					opacity: 0;
 				}
 			}
+
+		
 
 			&.is-transitioning {
 				@include vendor('transform', 'scale(0.95)');

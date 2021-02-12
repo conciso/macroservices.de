@@ -77,7 +77,7 @@
 	select,
 	textarea {
 		@include vendor('appearance', 'none');
-		background: _palette(border-bg);
+		background: lighten(_palette(bg), 10%);
 		border: none;
 		border-radius: 2px;
 		color: inherit;

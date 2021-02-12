@@ -18,8 +18,9 @@
 			width: -webkit-max-content;
 			width: -ms-max-content;
 			width: max-content;
-      max-width: 100%;
+      		max-width: 100%;
 			margin-bottom: _size(element-margin);
+			padding: 0.2em 0.6em;
 
 			> :first-child {
 				  margin-bottom: 0;
@@ -40,7 +41,6 @@
 				font-weight: _font(weight-bold);
 				letter-spacing: _font(letter-spacing-alt);
 				margin-bottom: 0;
-				text-transform: uppercase;
 			}
 
 			body.is-ie & {
