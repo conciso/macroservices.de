@@ -6,13 +6,11 @@
         #cookie-notice a {position: relative; bottom: 4px;}
     }
 </style>
-<div id="cookie-notice"><span>We would like to use third party cookies and scripts to improve the functionality of this website.</span><a id="cookie-notice-accept" class="btn btn-primary btn-sm">Approve</a><a href="https://conciso.de/datenschutz/" class="btn btn-primary btn-sm">More info</a></div>
+<div id="cookie-notice"><span>Diese Website verwendet keine Cookies, außer Sie stimmen der Analyse mittels Google Analytics zu.</span><a id="cookie-notice-accept" class="btn btn-primary btn-sm">Zustimmen</a><a id="cookie-notice-reject" class="btn btn-primary btn-sm">Ablehnen</a></div>
 <script>
-    function createCookie(name,value,days) {
+    function createCookie(name,value,date) {
         var expires = "";
-        if (days) {
-            var date = new Date();
-            date.setTime(date.getTime() + (days*24*60*60*1000));
+        if (date) {
             expires = "; expires=" + date.toUTCString();
         }
         document.cookie = name + "=" + value + expires + "; path=/";
@@ -22,24 +20,32 @@
         var ca = document.cookie.split(';');
         for(var i=0;i < ca.length;i++) {
             var c = ca[i];
-            while (c.charAt(0)==' ') c = c.substring(1,c.length);
-            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+            while (c.charAt(0)===' ') c = c.substring(1,c.length);
+            if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length,c.length);
         }
         return null;
     }
-    function eraseCookie(name) {
-        createCookie(name,"",-1);
+
+    function setApprovalCookie() {
+        let expiry = new Date;
+        expiry.setFullYear(expiry.getFullYear() + 2);
+        createCookie('cookies-approved', 'true', expiry);
     }
 
-    if(readCookie('cookie-notice-dismissed')=='true') {
+    if(readCookie('cookies-approved') === 'true') {
+        setApprovalCookie();
         {% include ga.js %}
-    } else {
+    } else if (window.sessionStorage.getItem("cookies-rejected") !== 'true') {
         document.getElementById('cookie-notice').style.display = 'block';
     }
     document.getElementById('cookie-notice-accept').addEventListener("click",function() {
-        createCookie('cookie-notice-dismissed','true',31);
         document.getElementById('cookie-notice').style.display = 'none';
-        location.reload();
+        setApprovalCookie();
+        {% include ga.js %}
+    });
+    document.getElementById('cookie-notice-reject').addEventListener("click",function() {
+        sessionStorage.setItem("cookies-rejected", 'true');
+        document.getElementById('cookie-notice').style.display = 'none';
     });
 
 </script>
