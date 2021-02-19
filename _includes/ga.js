@@ -4,4 +4,5 @@
 })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
 ga('create', 'G-7KXFK7BQPT', 'auto');
+ga('set', 'anonymizeIp', true);
 ga('send', 'pageview');
