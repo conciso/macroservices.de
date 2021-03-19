@@ -2,14 +2,14 @@
 <section id="contact">
 	<div class="inner">
 		<section>
-			<form action="https://formspree.io/f/xyybbkga" method="POST">
+			<form action="mailto:{{ site.email }}?subject=Macroservices - Anfrage über die Website" accept-charset="UTF-8" method="GET" enctype="application/x-www-form-urlencoded">
 				<div class="field half first">
 					<label for="name">Name</label>
 					<input type="text" name="name" id="name" />
 				</div>
 				<div class="field half">
 					<label for="email">E-Mail</label>
-					<input type="text" name="_replyto" id="email" />
+					<input type="text" name="email" id="email" />
 				</div>
 				<div class="field">
 					<label for="message">Nachricht</label>
@@ -17,7 +17,6 @@
 				</div>
 				<ul class="actions">
 					<li><input type="submit" value="Senden" /></li>
-					<!--<li><input type="reset" value="Löschen" class="special"/></li>-->
 				</ul>
 			</form>
 		</section>
