@@ -21,8 +21,8 @@ skaliert werden, nicht gezielt einzelne Komponenten, was mit hohen Kosten verbun
 ### Haben Monolithen ausgedient?
 
 Um diese Probleme zu beheben, kann man das Gesamtsystem in viele kleine Microservices aufbrechen, die sich autark
-entwickeln, testen und liefern lassen. Microservices bieten zudem eine hohe Flexibilität in der Implementierung
-(„<strong>Polyglot</strong>“) sowie gegenüber unsicheren Anforderungen, die häufigen Änderungs- und Lieferbedarf mit sich bringen.
+entwickeln, testen und liefern lassen. Microservices bieten zudem eine hohe Flexibilität für eine polyglotte
+Implementierung sowie gegenüber unsicheren Anforderungen, die häufigen Änderungs- und Lieferbedarf mit sich bringen.
 
 Wenn schnelle und häufige Releasezyklen von hoher strategischer Bedeutung sind und die Organisation, in der das
 Softwaresystem entsteht, mit entsprechend geschulten und cross-funktionalen Teams arbeitet, ist diese Form der
