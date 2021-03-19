@@ -15,9 +15,14 @@
 					<label for="message">Nachricht</label>
 					<textarea name="message" id="message" rows="6"></textarea>
 				</div>
+				<div class="field">
+					<label for="datenschutz">
+						<input type="checkbox" id="datenschutz" name="datenschutz" onchange="document.getElementById('submit').disabled = !this.checked;" />
+						Ich habe die <a href="{{site.link.datenschutz}}" target="_blank">Datenschutzerklärung</a> gelesen und stimme zu.
+					</label>
+				</div>
 				<ul class="actions">
-					<li><input type="submit" value="Senden" /></li>
-					<!--<li><input type="reset" value="Löschen" class="special"/></li>-->
+					<li><input type="submit" id="submit" value="Senden" disabled="disabled"/></li>
 				</ul>
 			</form>
 		</section>
@@ -92,7 +97,7 @@
 			<ul class="copyright">
 				<li>&copy; 2021 by {{site.company}} </li>
 				<li><a href="https://conciso.de/impressum/" target="_blank">Impressum</a></li>
-				<li><a href="https://conciso.de/datenschutz/" target="_blank">Datenschutz</a></li>
+				<li><a href="{{site.link.datenschutz}}" target="_blank">Datenschutz</a></li>
 				<li>Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a></li>
 				<li>Jekyll integration: <a href="http://andrewbanchi.ch" target="_blank">Andrew Banchich</a></li>
 

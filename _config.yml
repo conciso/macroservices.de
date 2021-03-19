@@ -12,6 +12,8 @@ city: Dortmund
 zip_code: 44269
 country: Deutschland
 phone: +49 231 5648 450
+link:
+  datenschutz: https://conciso.de/datenschutz/
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
