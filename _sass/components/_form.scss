@@ -153,7 +153,7 @@
 			position: relative;
 
 			&:before {
-				background: _palette(border-bg);
+				background: lighten(_palette(bg), 10%);
 				content: '';
 				display: inline-block;
 				height: (_size(element-height) * 0.6);
@@ -169,7 +169,7 @@
 
 		&:checked + label {
 			&:before {
-				background: _palette(fg-bold);
+				background: lighten(_palette(bg), 10%);
 				border-color: _palette(highlight);
 				content: '\f00c';
 				color: _palette(bg);
@@ -178,7 +178,7 @@
 
 		&:focus + label {
 			&:before {
-				box-shadow: 0 0 0 2px _palette(highlight);
+				box-shadow: 0 0 0 2px lighten(_palette(bg), 10%);
 			}
 		}
 	}
