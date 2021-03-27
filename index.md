@@ -2,7 +2,7 @@
 layout: home
 title: Home
 landing-title: 'Micro? Oder Macro?'
-description: null
+description: Microservices waren der wichtigste Architekturtrend. Wenn es um Softwarearchitektur geht, scheint kleiner besser zu sein. Aber ist das wirklich so?
 image: null
 author: null
 show_tile: false

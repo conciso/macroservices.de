@@ -27,6 +27,7 @@ instagram_url:
 linkedin_url: https://www.linkedin.com/company/conciso/
 xing_url: https://www.xing.com/companies/conciso
 twitter_url: https://twitter.com/ConcisoIT
+twitter_handle: ConcisoIT
 
 # build settings
 markdown: kramdown

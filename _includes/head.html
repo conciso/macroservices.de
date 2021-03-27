@@ -8,4 +8,30 @@
 	<link rel="icon" type="image/png" href="{{ "assets/images/favicon.png" | relative_url }}">
 	<!--[if lte IE 9]><link rel="stylesheet" href="{{ "assets/css/ie9.css" | relative_url }}" /><![endif]-->
 	<!--[if lte IE 8]><link rel="stylesheet" href="{{ "assets/css/ie8.css" | relative_url }}" /><![endif]-->
+
+	<!-- Cards / OpenGraph, Twitter etc -->
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:site" content="${{ site.twitter_handle }}" />
+	<meta name="twitter:creator" content="${{ site.twitter_handle }}" />
+	<meta property="og:type" content="article" />
+	<meta property="og:locale" content="de_DE" />
+	<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.title }}{% endif %}" />
+	<meta property="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.title }}{% endif %}" />
+	<meta property="og:url" content="{{ page.url | relative_url }}" />
+	{% if page.thumbnail %}
+		<meta property="og:image" content="{{ page.thumbnail | relative_url }}" />
+		<meta property="og:image:secure_url" content="{{ page.thumbnail | relative_url }}" />
+		<meta property="twitter:image" content="{{ page.thumbnail | relative_url }}" />
+	{% endif %}
+
+	{% if page.layout == "post" or "post" %}
+		<meta property="og:title" content="{{ site.title }}{% if page.title %} - {{ page.title }} {% endif %}" />
+		<meta property="twitter:title" content="{{ site.title }}{% if page.title %} - {{ page.title }} {% endif %}" />
+	{% elsif page.layout == "home" %}
+		<meta property="og:title" content="{{ site.title }}{% if page.landing-title %} - {{ page.landing-title }} {% endif %}" />
+		<meta property="twitter:title" content="{{ site.title }}{% if page.landing-title %} - {{ page.landing-title }} {% endif %}" />
+	{% else %}
+		<meta property="og:title" content="{{ site.title }}" />
+		<meta property="twitter:title" content="{{ site.title }}" />
+	{% endif %}
 </head>
