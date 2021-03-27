@@ -17,15 +17,15 @@
 	<meta property="og:locale" content="de_DE" />
 	<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.title }}{% endif %}" />
 	<meta property="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.title }}{% endif %}" />
-	<meta property="og:url" content="{{ page.url | relative_url }}" />
+	<meta property="og:url" content="{{ page.url | absolute_url }}" />
 	{% if page.thumbnail %}
-		<meta property="og:image" content="{{ page.thumbnail | relative_url }}" />
-		<meta property="og:image:secure_url" content="{{ page.thumbnail | relative_url }}" />
-		<meta property="twitter:image" content="{{ page.thumbnail | relative_url }}" />
-	{% else %}}
-		<meta property="og:image" content="{{ "assets/images/macro.jpg" | relative_url }}" />
-		<meta property="og:image:secure_url" content="{{ page.thumbnail | relative_url }}" />
-		<meta property="twitter:image" content="{{ page.thumbnail | relative_url }}" />
+		<meta property="og:image" content="{{ page.thumbnail | absolute_url }}" />
+		<meta property="og:image:secure_url" content="{{ page.thumbnail | absolute_url }}" />
+		<meta property="twitter:image" content="{{ page.thumbnail | absolute_url }}" />
+	{% else %}
+		<meta property="og:image" content="{{ "assets/images/macro.jpg" | absolute_url }}" />
+		<meta property="og:image:secure_url" content="{{ page.thumbnail | absolute_url }}" />
+		<meta property="twitter:image" content="{{ page.thumbnail | absolute_url }}" />
 	{% endif %}
 
 	{% if page.layout == "post" or "post" %}
