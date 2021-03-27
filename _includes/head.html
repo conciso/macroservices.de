@@ -22,6 +22,10 @@
 		<meta property="og:image" content="{{ page.thumbnail | relative_url }}" />
 		<meta property="og:image:secure_url" content="{{ page.thumbnail | relative_url }}" />
 		<meta property="twitter:image" content="{{ page.thumbnail | relative_url }}" />
+	{% else %}}
+		<meta property="og:image" content="{{ "assets/images/macro.jpg" | relative_url }}" />
+		<meta property="og:image:secure_url" content="{{ page.thumbnail | relative_url }}" />
+		<meta property="twitter:image" content="{{ page.thumbnail | relative_url }}" />
 	{% endif %}
 
 	{% if page.layout == "post" or "post" %}
