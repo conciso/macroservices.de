@@ -21,9 +21,9 @@ Verantwortlich für die folgenden genannten Inhalte ist die
 Pariser Bogen 7  
 44269 Dortmund  
 
-Phone: +49 231 226175 0  
+Tel.: +49 231 226175 0  
 Fax: +49 231 226175 10  
-Email: [datenschutz@conciso.de](mailto://info@conciso.de)  
+E-Mail: [datenschutz@conciso.de](mailto://info@conciso.de)  
 [Impressum - Conciso GmbH](https://conciso.de/impressum)
 
 ### Datenschutzbeauftragte
@@ -141,4 +141,4 @@ Sofern oben nicht anderes beschrieben wurde, wenden Sie sich zur Geltendmachung 
 Pariser Bogen 7  
 44269 Dortmund, Deutschland
 
-Email: [datenschutz@conciso.de](mailto://datenschutz@conciso.de)
+E-Mail: [datenschutz@conciso.de](mailto://datenschutz@conciso.de)
