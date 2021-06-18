@@ -13,7 +13,7 @@ zip_code: 44269
 country: Deutschland
 phone: +49 231 2261750
 link:
-  datenschutz: /99-datenschutz.html
+  datenschutz: /99_datenschutz.html
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
