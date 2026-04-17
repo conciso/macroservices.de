@@ -30,7 +30,7 @@ E-Mail: [datenschutz@conciso.de](mailto://info@conciso.de)
 
 Als Datenschutzbeauftragter berufen ist:
 
-<strong>Christoph Parnitzke</strong>  
+<strong>Michael Didion</strong>  
 Pariser Bogen 7  
 44269 Dortmund, Deutschland
 
@@ -158,7 +158,7 @@ Das Beschwerderecht kann insbesondere bei einer Aufsichtsbehörde in dem Mitglie
 
 Sofern oben nicht anderes beschrieben wurde, wenden Sie sich zur Geltendmachung Ihrer Betroffenenrechte bitte an unseren Datenschutzbeauftragten:
 
-<strong>Christoph Parnitzke</strong>
+<strong>Michael Didion</strong>
 
 Pariser Bogen 7  
 44269 Dortmund, Deutschland
